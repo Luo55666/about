@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--Code By Webdevtrick ( https://webdevtrick.com )-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="circle.css">
+</head>
+<body>
+
+<header>
+    <nav class="hide">
+        <ul id="menu">
+            <li data-menuanchor="firstSection">
+                <a href="#firstSection" title="First Section">First Section</a>
+            </li>
+            <li data-menuanchor="secondSection">
+                <a href="#secondSection" title="Second Section">Second Section</a>
+            </li>
+            <li data-menuanchor="thirdSection">
+                <a href="#thirdSection" title="Second Section">Third Section</a>
+            </li>
+            <li data-menuanchor="fourthSection">
+                <a href="#fourthSection" title="Fourth Section">Fourth Section</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div id="fullpage">
+    <section class="vertical-scrolling" id="first-section">
+        <div class="animate__animated animate__zoomInDown">
+            <h2>Hi, There. I Am Wei Luo</h2>
+            <h3>I'm a Software Developer</h3>
+            <div class="grid">
+                <button class="btn bt-one">Wei's blog</button>
+                <button class="btn bt-two">Get Resume</button>
+            </div>
+        </div>
+        <a href="#secondSection" class="arrow-container">
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+        </a>
+    </section>
+    <section class="vertical-scrolling" id="second-section">
+        <h1>About Myself</h1>
+        <div class="ui two column grid m-margin-bottom">
+            <div class="column fromLeft">
+
+                <div class="ui horizontal divider">
+                    <i class="huge graduation cap icon"></i>
+                    Education
+                </div>
+                <div class="ui list">
+                    <div class="item">
+                        <div class="content m-padded">
+                            <a class="ui left aligned header">University of Texas at Dallas</a>
+                            <div class="description">Master of Computer Science, &nbsp;2018 - 2020</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content m-padded">
+                            <a class="ui left aligned header">Wuhan University</a>
+                            <div class="description">Bachelor of Engineering in Software Engineering, &nbsp;2013 -
+                                2017
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class=" column fromRight">
+                <div class="ui horizontal divider">
+                    <i class="huge briefcase icon"></i>
+                    Work Experience
+                </div>
+                <div class="ui list">
+                    <div class="item">
+                        <div class="content m-padded">
+                            <a class="ui left aligned header">Beijing Caizhi Technologies Co., Ltd.</a>
+                            <div class="ui left description">JAVA Back-end Engineer, Full-time, &nbsp;2017/11 - 2018/6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="ui list" id="work-description">
+                    <li>Participated in develop
+                        ing the Intelligent Question-Answer System and the Lottery Seller Management System using Spring
+                        Boot + MySQL + Hibernate as framework
+                    </li>
+                    <li>Designed data structure and wrote SQL statements to create tables of the above project</li>
+                    <li>Wrote RESTful CRUD and corresponding services to manipulate data.</li>
+                </ul>
+
+            </div>
+        </div>
+        <a href="#thirdSection" class="arrow-container">
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+        </a>
+    </section>
+    <section class="vertical-scrolling">
+        <h1>My Skills</h1>
+        <div class="ui three column grid m-padded-large">
+            <div class="column">
+                <div class="c100 p95 g">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="c100 p95 big green">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="c100 p95 big green">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="c100 p95 big green">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="c100 p95 big green">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="c100 p95 big green">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#fourthSection" class="arrow-container">
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+        </a>
+    </section>
+    <section class="vertical-scrolling">
+        <h2>#4</h2>
+        <h3>This is the fourth section</h3>
+    </section>
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+<script src="function.js"></script>
+
+
+</body>
+</html>
